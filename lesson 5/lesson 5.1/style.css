@@ -1,0 +1,31 @@
+#block_general{
+    width: 100%;
+}
+#block1{
+    background-color: aqua;
+    width: 100%;
+    float: left;
+    height: 100px;
+}
+#block2{
+    background-color: crimson;
+    width: 100%;
+    float: left;
+    height: 70px;
+}
+#block3{
+    background-color: chartreuse;
+    width: 25%;
+    float: left;
+    height: 400px;
+}
+#block4{
+    background-color: gray;
+    width: 75%;
+    float: right;
+    height: 400px;
+}
+#block5{
+    background-color: blue;
+    width: 100%;
+}
