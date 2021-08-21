@@ -1,0 +1,46 @@
+.general{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+#header1{
+    width: 200px;
+    background-color: brown;
+    height: 100px;
+    border: 1px solid blue;
+}
+#header2{
+    width: 200px;
+    background-color: darkgreen;
+    height: 100px;
+    border: 1px solid blue;
+}
+#header3{
+    width: 200px;
+    background-color: darkblue;
+    height: 100px;
+    border: 1px solid blue;
+}
+
+
+
+#col1{
+    width: 200px;
+    background-color: rgb(219, 97, 67);
+    height: 400px;
+    border: 1px solid blue;
+}
+#col2{
+    width: 200px;
+    background-color: rgb(79, 163, 79);
+    height: 400px;
+    border: 1px solid blue;
+}
+#col3{
+    width: 200px;
+    background-color: cadetblue;
+    height: 400px;
+    border: 1px solid blue;
+}
