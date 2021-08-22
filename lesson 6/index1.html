@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 6 part 1 -"new tags"</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<!--new tag ~figure~-->
+    <div>
+        <figure>
+            <!-- figcaption - tag care contine descriere, inaltime standatra 18px -->
+            <img src="imagine/park.jpg" alt="Park">
+            <figcaption> Park de distractie</figcaption>
+        </figure>
+    </div>
+<!-- new tag ~delails~ -->
+    <div>
+        <details>
+            <!--tag ~summary~ ne permite sa adaugam titlu, apasind pe el vedem continutul tagului dat -->
+            <summary> Arata informatia</summary>
+            <p>Acest paragraf se afla in tag-ul details</p>
+        </details>
+    </div>
+<!--new tag ~time~ -->
+    <div>
+        <time datetime="2021-08-22">22 august 2021</time>
+
+        <p>
+            <time>februarie 2004</time> - a fost fondat - Facebook
+        </p>
+    </div>
+ <!--new tag ~output~ -->
+    <div>
+        <output>careva text, care este rezultatul script-ului </output>
+        <form oninput="result.value=(cm.value/2.54).toFixed(2)">
+            <p>
+                Introduceti lungimea in centrimetri:
+                <input type="number" name="cm" autofocus>
+            </p>
+            <p>lumginea in inch: <output name="result">0</output></p>
+        </form>
+    </div>
+<!--new tag ~ruby~-->
+    <div>
+        <!-- teag pentru adnotare de sus sau jos a unui paragraf-->
+        <ruby>
+            text
+            <!--tag rp expune textul daca browser-ul nu citeste tag-ul ruby. -->
+            <rp>
+                if not support
+            </rp>
+            <rt>
+                Some text
+            </rt>
+        </ruby>
+    </div>
+    <div>
+        <p class="date">
+            <ruby>
+                25<rt>декабрь</rt>
+            </ruby>
+        </p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 6 part 3-4 -"audio+video"</title>
+</head>
+<body>
+    <div>
+        <!--nu apare pe pagina dar se porneste sunetul automat/// nu se porneste-->
+        <audio src="audio/Vivaldi.mp3" autoplay loop >
+            browser-ul nu poate deschide acest sunet din mediafiles!       
+        </audio>
+    </div>
+    <div>
+        <audio controls>
+            <source src="audio/Vivaldi.mp3">
+            <source src="audio/Vivaldi.ogg">
+            browser-ul nu poate deschide acest sunet din mediafiles!
+        </audio>
+    </div>
+    <div>
+        <video controls loop poster="imagine/poster.PNG" width="800">
+            <source src="video/vsvideo.mp4" />
+            <source src="video/vsvideo.ogg" />
+            <source src="video/vsvideo.webm" />
+        </video>
+    </div>
+</body>
+</html>
