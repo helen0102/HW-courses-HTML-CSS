@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chestionar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="form" id="app">
+    <div class="formular">
+        <div class="title"> Login to Web App </div>
+        <form action="">
+            <div class="form-item">
+                <div> <input class="input" v-model="form.text" type="text" name="email" placeholder="Username or Email"></div>
+            </div>
+            <div class="form-item">
+                <div> <input class="input" v-model="form.password" type="password" name="password" placeholder="Password"></div>
+            </div>
+            <div>
+                <label class="checkbox" for="checkbox">
+                    <input type="checkbox" name="checkbox"> Remember me in this computer
+                  </label>
+            </div>
+        </form>
+        
+        <div class="button">
+            <button type="submit" class="btn btn-primary"> Login </button>
+        </div>
+        <a class="ssolink" href="#">Forgot your password? Click here yo reset it.</a>
+    </div>
+</div>
+</body>
+</html>

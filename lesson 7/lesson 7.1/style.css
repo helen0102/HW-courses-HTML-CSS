@@ -1,0 +1,17 @@
+.required:before {
+    content:"* ";
+    color:red;
+    font-weight: bold;
+}
+
+.fieldset{
+    width: 40%;
+    justify-content: center;
+    margin: 8px;
+}
+
+
+div{
+    margin: 3px;
+    float: right;
+}

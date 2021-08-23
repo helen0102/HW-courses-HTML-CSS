@@ -1,0 +1,67 @@
+.input{
+    margin: 5px;
+    box-shadow: 3px 10px 10px -10px #000;
+    width: 60%;
+    height: 50px;
+    justify-content: center;
+    position: relative;
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+
+button{
+    border-radius: 25%;
+    display: inline;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    background-color: rgb(216, 225, 252);
+    margin: 10px;
+    float: right;
+    align-items: center;
+}
+
+.checkbox{
+    display: inline;
+    float: left;
+}
+a {
+  color: #5469d4;
+}
+body {
+    min-height: 100%;
+    background-color: #2a9df4;
+}
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(59, 56, 56);
+    border: rgb(226, 219, 226);
+    background-color: rgb(231, 221, 231);
+}
+
+.ssolink{
+    text-align: center;
+    margin: 20px;
+}
+
+form{
+    margin: 30px;
+}
+
+.form{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    width: 100%;
+    border: 5px ;
+}
+
+.formular{
+    width: 40%;
+    margin: 200px;
+    box-shadow: 3px 10px 28px -2px #000;
+    background-color: white;
+    border-radius: 5px;
+}

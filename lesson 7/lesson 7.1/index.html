@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 7 part 1: form </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <form class="form">
+            <fieldset class="fieldset">
+                <legend>Personal information:</legend>
+                <div class="form-item">
+                    <label class="required">First name: </label>
+                    <input  class="form-control" required type="text" name="f-name" id="">
+                </div>
+                <div class="form-item">
+                    <label class="text">Middle name: </label>
+                    <input  class="form-control" type="text" name="m-name" id="">
+                </div>
+                <div class="form-item">
+                    <label class="required">Last name: </label>
+                    <input  class="form-control" required type="text" name="l-name" id="">
+                </div>
+            </fieldset>
+
+            <fieldset class="fieldset">
+                <legend>Address:</legend>
+                <div class="form-group">
+                    <label for="address1">Address</label>
+                    <input type="text" class="form-control" id="address1" placeholder="18—24 Swinton Street">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="city">City</label>
+                    <input type="text" class="form-control" id="city">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="state">State</label>
+                    <select id="state" class="form-control">
+                        <option selected disabled>Choose of state</option>
+                        <option>Los-Angeles</option>
+                        <option>New York</option>
+                        <option>Kiev</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                    <label class="reqiured" for="zip">Zip code</label>
+                    <input type="text" class="form-control" id="zip">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
